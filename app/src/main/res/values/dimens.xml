@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default -->
+    <dimen name="default_margin">16dp</dimen>
+
+    <!-- Type Scale -->
+    <dimen name="text_scale_96">96sp</dimen>
+    <dimen name="text_scale_60">60sp</dimen>
+    <dimen name="text_scale_48">48sp</dimen>
+    <dimen name="text_scale_34">34sp</dimen>
+    <dimen name="text_scale_24">24sp</dimen>
+    <dimen name="text_scale_20">20sp</dimen>
+    <dimen name="text_scale_16">16sp</dimen>
+    <dimen name="text_scale_14">14sp</dimen>
+    <dimen name="text_scale_12">12sp</dimen>
+
+
+</resources>
