@@ -1,4 +1,4 @@
-package com.saad.myapplication.ui.register
+package com.saad.myapplication.home.ui
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -8,25 +8,24 @@ import android.view.View
 import android.view.ViewGroup
 import com.saad.myapplication.R
 
-class RegisterFragment : Fragment() {
-
-    companion object {
-        fun newInstance() = RegisterFragment()
-    }
-
-    private lateinit var viewModel: RegisterViewModel
+class HomeFragment : Fragment() {
+    private lateinit var viewModel: HomeViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.register_fragment, container, false)
+        return inflater.inflate(R.layout.home_fragment, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(RegisterViewModel::class.java)
+        viewModel = ViewModelProvider(this).get(HomeViewModel::class.java)
         // TODO: Use the ViewModel
     }
 
+
+    companion object {
+        fun newInstance() = HomeFragment()
+    }
 }

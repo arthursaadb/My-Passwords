@@ -1,4 +1,4 @@
-package com.saad.myapplication.ui.home
+package com.saad.myapplication.home.ui
 
 import androidx.lifecycle.ViewModel
 

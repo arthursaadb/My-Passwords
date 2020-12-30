@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/onboardingFragment">
+    app:startDestination="@id/pinFragment">
 
     <fragment
         android:id="@+id/registerFragment"
@@ -13,13 +13,13 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.saad.myapplication.ui.home.HomeFragment"
+        android:name="com.saad.myapplication.home.ui.HomeFragment"
         android:label="home_fragment"
         tools:layout="@layout/home_fragment" />
 
     <fragment
         android:id="@+id/pinFragment"
-        android:name="com.saad.myapplication.ui.pin.PinFragment"
+        android:name="com.saad.myapplication.pin.ui.PinFragment"
         android:label="pin_fragment"
         tools:layout="@layout/pin_fragment" >
         <action

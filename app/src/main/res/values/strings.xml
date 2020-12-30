@@ -2,8 +2,12 @@
     <string name="app_name">MyPasswords</string>
 
     <!-- Register -->
-    <string name="register_title">Crie <br/>sua conta</string>
+    <string name="register_title">Crie <br />sua conta</string>
     <string name="register_input_full_name">Digite seu nome completo</string>
     <string name="register_input_email">Digite seu email</string>
     <string name="register_input_password">Digite uma senha</string>
+
+    <!-- Pin Fragment -->
+    <string name="pin_fragment_title">Muito bem! Agora vamos cadastrar seu PIN para poder acessar o APP</string>
+    <string name="pin_save">Salvar</string>
 </resources>

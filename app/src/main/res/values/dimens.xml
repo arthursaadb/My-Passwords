@@ -2,6 +2,7 @@
 <resources>
     <!-- Default -->
     <dimen name="default_margin">16dp</dimen>
+    <dimen name="default_button_height">90dp</dimen>
 
     <!-- Type Scale -->
     <dimen name="text_scale_96">96sp</dimen>
