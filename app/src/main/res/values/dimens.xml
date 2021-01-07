@@ -15,5 +15,8 @@
     <dimen name="text_scale_14">14sp</dimen>
     <dimen name="text_scale_12">12sp</dimen>
 
+    <!-- Home Fragment -->
+    <dimen name="line_divider">1dp</dimen>
+
 
 </resources>
